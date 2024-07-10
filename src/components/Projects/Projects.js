@@ -6,8 +6,8 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import levitation from "../../Assets/Projects/levitation.jpg";
+import blob from "../../Assets/Projects/blob.jpg";
 
 function Projects() {
   return (
@@ -27,6 +27,26 @@ function Projects() {
               isBlog={false}
               title="Estia"
               description="Discord Bot made using Javascript"
+              ghLink="https://github.com/mowlan4/spanishbot"
+              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blob}
+              isBlog={false}
+              title="Sensor glove for sign language translation"
+              description="this device is a sensor-based wearable that converts simple hand gestures to text and speech."
+              ghLink="https://github.com/mowlan4/spanishbot"
+              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={levitation}
+              isBlog={false}
+              title="Magnet Levitation with Rasberry Pi"
+              description="Built from complete scratch, i used 3D printing and physics principles of electromagnetism to create this."
               ghLink="https://github.com/mowlan4/spanishbot"
               
             />
